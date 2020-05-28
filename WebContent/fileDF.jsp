@@ -14,7 +14,7 @@
 <jsp:useBean id="filedown" class="file.FileDownload"/>
 
 <c:forEach var="fileName" items="${filedown.fileList(realpath,req) }">
-	<a href="fileDownload.jsp?filename=${filename }">${fileName }</a>
+	<a href="fileDownload.jsp?filename=${fileName }">${fileName }</a>
 </c:forEach>
 </body>
 </html>

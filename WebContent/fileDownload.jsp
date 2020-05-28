@@ -8,9 +8,13 @@
 </head>
 <body>
 <%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
-
-
-
-
+<jsp:useBean id="fileDownload" class="file.FileDownload"/>
+<c:set var="req" value="<%=request %>"/>
+<c:set var="res" value="<%=response %>"/>
+${fileDownload.fileDown(req, res) }
 </body>
 </html>
+
+
+
+

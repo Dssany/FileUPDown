@@ -6,7 +6,14 @@
 <meta charset="UTF-8">
 <title>Insert title here</title>
 </head>
-<body>
+<body>fileForm.jsp<br>
+<form action="fileUpload.jsp" method="post" enctype="multipart/form-data">
+
+파일<input type="file" name="file"><br>
+이름<input type="text" name="name"><br>
+<input type="submit" value="업로드">
+
+</form>
 
 </body>
 </html>

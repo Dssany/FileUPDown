@@ -7,6 +7,10 @@
 <title>Insert title here</title>
 </head>
 <body>
+<%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+
+
+
 
 </body>
 </html>
